@@ -1,0 +1,9 @@
+
+import argparse from core.horse64.org
+import system from core.horse64.org
+
+func main {
+    var defs = new argparse.ArgumentDefs(program_name="horp")
+    defs.add_arg("action")
+    var args = argparse.parse(defs)
+}
